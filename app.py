@@ -22,7 +22,7 @@ vectorstore = FAISS.from_documents(docs, embedding_model)
 # Use OpenRouter to call GPT
 llm = ChatOpenAI(
     model_name="gpt-3.5-turbo",
-    openai_api_key="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",
+    openai_api_key="Openrouter_API",
     openai_api_base="https://openrouter.ai/api/v1"
 )
 
